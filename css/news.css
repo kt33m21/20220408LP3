@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.news__item:not(:first-child){
+  margin-top: 10px;
+}
+
+.news__item-link {
+  display: flex;
+  align-items: center;
+  border: 1px solid #222;
+  padding: 20px;
+}
+
+.news__item-date {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .news__item-link{
+    padding: 10px;
+    font-size: 14px;
+  }
+}

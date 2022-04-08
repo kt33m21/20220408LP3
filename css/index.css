@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+
+/*-------------- top -------------- */
+
+.top__mv {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/mv.png) center / cover;
+  color:#fff;
+}
+
+.top__mv-main-copy {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.top__mv-sub-copy {
+  font-weight:bold;
+  font-size:18px;
+  text-align: center;
+}
+
+/*-------------- top feature -------------- */
+
+.top__feature {
+  color:#fff;
+  background-color: #222;
+}
+
+.top__feature-txt {
+  margin-top: 20px;
+}
+
+/*-------------- top service -------------- */
+
+.top__service-ttl {
+  text-align: center;
+}
+
+.top__service-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.top__service-item {
+  width: 49%;
+  padding:15px;
+  margin-top:20px;
+  margin-right: calc(100% - (49% * 2));
+}
+
+.top__service-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.top__service-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.top__service-btn {
+  margin: 40px auto 0;
+}
+
+/*-------------- top news -------------- */
+
+.top__news {
+  background-color:#222;
+}
+
+.top__news-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top__news-ttl {
+  color: #fff;
+}
+
+.top__news-btn {
+  width: 160px;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.top__news-list {
+  margin-top: 20px;
+}
+
+.top__news-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.top__news-item-link {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.top__news-item-date {
+  margin-right: 10px;
+}
+
+/*-------------- top blog -------------- */
+
+.top__blog-ttl {
+  text-align: center;
+}
+
+.top__blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.top__blog-item {
+  width: 32%;
+  margin-right: calc((100% - (32% * 3)) / 2 );
+}
+
+.top__blog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.top__blog-item-date {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.top__blog-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.top__blog-btn {
+  margin:40px auto 0;
+}
+
+/*-------------- top company -------------- */
+
+.top__company-list {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 0;
+}
+
+.top__company-item {
+  width: 50%;
+}
+
+.top__company-link {
+  background-color: #cd0224;
+}
+
+.top__recruit-link {
+  background-color: #222;
+}
+
+.top-company-item-link {
+  display: inline-block;
+  width: 100%;
+  line-height: 10;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+
+  .top__service-item{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .top__news-item-link{
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .top__blog-item{
+    width: 100%;
+    margin-right: 0;
+  }
+
+}

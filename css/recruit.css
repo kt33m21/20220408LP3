@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.recruit-type:not(:first-child) {
+  margin-top: 80px;
+}
+
+.recruit__type-ttl {
+  font-weight: bold;
+  font-size: 26px;
+  border-bottom: 1px solid #222;
+}
+
+.recruit__type-description {
+  margin-top: 20px;
+}
+
+.recruit__type-info {
+  width: 100%;
+  border: 1px solid #222;
+  margin-top: 20px;
+}
+
+.recruit__type-info-name,
+.recruit__type-info-data {
+  border-top: 1px solid #222;
+  padding: 10px;
+}
+
+.recruit__type-info-name {
+  font-weight: bold;
+  width: 30%;
+  border-right: 1px solid #222;
+  background-color: #f5f6f9;
+}
+
+.recruit__type-info-data {
+  width: 70%;
+}

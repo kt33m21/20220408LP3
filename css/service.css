@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.service__item{
+  padding:20px 0;
+  border-top: 1px solid #222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service__item:last-child {
+  border-bottom: 1px solid #222;
+}
+
+.service__item-img {
+  width: 290px;
+}
+
+.service__item-detail {
+  width: calc(100% - 330px);
+}
+
+.service__item-ttl {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+  .service__item-detail{
+    width: 100%;
+  }
+
+  .service__item-img{
+    width: 100%;
+  }
+
+}
